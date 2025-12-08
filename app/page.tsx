@@ -1,65 +1,76 @@
-import Image from "next/image";
+import { projects } from './data/projects';
+import ProjectCard from './components/ProjectCard';
+import { Terminal, Database, Cpu, Cloud } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-white text-gray-900 font-sans">
+      
+      {/* HERO SECTION */}
+      <section className="max-w-4xl mx-auto px-6 pt-24 pb-12 sm:pt-32">
+        <div className="mb-6 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-sm font-medium text-blue-800">
+          <span className="flex h-2 w-2 rounded-full bg-blue-600 mr-2"></span>
+          Based in Austin, TX
+        </div>
+        
+        <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6">
+          I build the software that powers <span className="text-blue-600">semiconductor manufacturing</span>.
+        </h1>
+        
+        <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mb-10">
+          I am a Material Quality Systems Engineer with a background in Chemical Engineering. 
+          I specialize in automating ETL pipelines, building cloud applications, and 
+          turning complex manufacturing data into actionable insights.
+        </p>
+
+        {/* Tech Stack Pills */}
+        <div className="flex flex-wrap gap-4 text-sm font-medium text-gray-600">
+           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg">
+             <Terminal size={18} /> Python & Bash
+           </div>
+           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg">
+             <Cloud size={18} /> AWS & GCP
+           </div>
+           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg">
+             <Database size={18} /> SQL & ETL
+           </div>
+           <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-lg">
+             <Cpu size={18} /> Semiconductor Mfg
+           </div>
+        </div>
+      </section>
+
+      <hr className="my-12 border-gray-100" />
+
+      {/* ABOUT SECTION */}
+      <section className="max-w-4xl mx-auto px-6 mb-24">
+        <h2 className="text-3xl font-bold mb-8">About Me</h2>
+        <div className="prose prose-lg text-gray-600">
+          <p className="mb-6">
+            My journey began in <strong>Chemical Engineering</strong>[cite: 51], but I quickly realized that the biggest bottlenecks in manufacturing weren't chemical—they were digital.
+          </p>
+          <p className="mb-6">
+            Currently, I work at <strong>Samsung Semiconductor</strong> [cite: 13], where I operate as a "Super User" [cite: 17]—a bridge between engineering teams and IT. I’ve developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
+          </p>
+          <p className="mb-6">
+            Previously at <strong>Intel</strong> [cite: 24], I worked as a Module & Integration Yield Engineer, using SQL and Python to certify advanced packaging factories [cite: 25] and lead defect reduction task forces[cite: 28].
+          </p>
+          <p>
+            I am passionate about using code to solve physical problems, whether it's optimizing wafer yield or automating ISO 9001 compliance alerts[cite: 18].
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* PROJECTS SECTION */}
+      <section className="max-w-5xl mx-auto px-6 pb-24">
+        <h2 className="text-3xl font-bold mb-8">Featured Work</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+
+    </main>
   );
 }
