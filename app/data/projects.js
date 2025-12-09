@@ -4,7 +4,7 @@ export const projects = [
     title: "Transportation API Dashboard",
     description: "Automated pipeline that fetches data from Transportation.gov via Python and visualizes trends in Looker Studio.",
     tech: ["Python", "Looker Studio", "API Integration"],
-    link: "https://lookerstudio.google.com/u/0/reporting/9cf75f12-0d44-41f7-bd4d-dccdc1154ded/page/45nhF", 
+    link: "https://lookerstudio.google.com/embed/reporting/9cf75f12-0d44-41f7-bd4d-dccdc1154ded/page/45nhF", 
     image: "/transportation.png"
   },
   {
