@@ -17,18 +17,5 @@ export const projects = [
     // You'll want to take a screenshot of your Grad-CAM result for this
     image: "/images/wafer-heatmap-demo.png" 
   },
-  {
-    title: "Real-Time Visualization App",
-    description: "Cloud application reducing manual data processing by 1,000+ hours annually using Python and AWS.",
-    tech: ["Python", "AWS", "Data Viz"],
-    link: "#",
-    image: "/project1.png"
-  },
-  {
-    title: "Automated ETL Pipeline",
-    description: "Integrated raw material data pipelines to reduce discrepancies by 30% and enable predictive analytics.",
-    tech: ["ETL", "SQL", "Automation"],
-    link: "#",
-    image: "/project2.png"
-  },
+  
 ];
