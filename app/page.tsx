@@ -53,7 +53,7 @@ export default function Home() {
             Currently, I work at <strong>Samsung Semiconductor</strong>, where I operate as a "Super User"; a bridge between material engineering teams and manufacturing systems. I’ve developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
           </p>
           <p className="mb-6">
-            Previously at <strong>Intel</strong>, I worked as a Module & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
+            Previously at <strong>Intel</strong>, I worked as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
           </p>
           <p>
             I am passionate about using technology and data to automate complex workflows, optimize product yield, and improve quality.

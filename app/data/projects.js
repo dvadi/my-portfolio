@@ -8,6 +8,16 @@ export const projects = [
     image: "/transportation.png"
   },
   {
+    title: "AI Wafer Defect Detection",
+    description: "An end-to-end Computer Vision pipeline that detects and classifies semiconductor manufacturing defects (WM-811K dataset) with 93% accuracy. Features a custom CNN architecture and 'Explainable AI' (Grad-CAM) to visualize failure patterns.",
+    tags: ["Python", "TensorFlow", "Computer Vision", "Streamlit"],
+    // Replace these with your actual links once deployed
+    demoLink: "https://share.streamlit.io/dvadi/wafer-demo", 
+    repoLink: "https://github.com/dvadi/wafer-demo",
+    // You'll want to take a screenshot of your Grad-CAM result for this
+    image: "/images/wafer-heatmap-demo.png" 
+  },
+  {
     title: "Real-Time Visualization App",
     description: "Cloud application reducing manual data processing by 1,000+ hours annually using Python and AWS.",
     tech: ["Python", "AWS", "Data Viz"],
@@ -21,11 +31,4 @@ export const projects = [
     link: "#",
     image: "/project2.png"
   },
-  {
-    title: "Semiconductor Defect Analysis",
-    description: "Algorithms to visualize key raw material data and remove noise from measurement variations.",
-    tech: ["JMP", "Statistical Analysis", "Algorithm"],
-    link: "#",
-    image: "/project3.png"
-  }
 ];
