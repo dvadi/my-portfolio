@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "AI Wafer Defect Detection",
     description: "An end-to-end Computer Vision pipeline that detects and classifies semiconductor manufacturing defects (WM-811K dataset) with 93% accuracy. Features a custom CNN architecture and 'Explainable AI' (Grad-CAM) to visualize failure patterns.",
-    tags: ["Python", "TensorFlow", "Computer Vision", "Streamlit"],
+    tech: ["Python", "TensorFlow", "Computer Vision", "Streamlit"],
     // Replace these with your actual links once deployed
     demoLink: "https://share.streamlit.io/dvadi/wafer-demo", 
     repoLink: "https://github.com/dvadi/wafer-demo",
