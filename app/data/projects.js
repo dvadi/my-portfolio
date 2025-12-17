@@ -17,5 +17,19 @@ export const projects = [
     // You'll want to take a screenshot of your Grad-CAM result for this
     image: "/images/wafer-heatmap-demo.png" 
   },
+  {
+    title: "Migo - Gigs (iOS App)",
+    description: "A mobile platform connecting users with local gig opportunities. Published iOS app developed using Swift and Firebase",
+    tech: ["iOS", "Swift", "Xcode", "NoSQL", "App Store"],
+    link: "https://apps.apple.com/app/migo-gigs/id6756591237",
+    image: "/migo.png"
+  },
+  {
+    title: "Migo - Gigs (Android App)",
+    description: "A mobile platform connecting users with local gig opportunities. Published ndroid app developed using React Native framework, JSX, StyleSheet, and Firebase",
+    tech: ["React Native", "JSX", "StyleSheet", "NoSQL"],
+    link: "https://apps.apple.com/app/migo-gigs/id6756591237",
+    image: "/migo.png"
+  },
   
 ];
