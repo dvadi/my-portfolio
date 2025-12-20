@@ -33,10 +33,10 @@ export const projects = [
   },
   {
     title: "Streamlit Chatbot",
-    description: "A chatbot on the cloud OpenAI's GPT-3.5 model to generate responses to user queries. Published in Streamlit using Github Codespaces, Python, and OpenAI API",
-    tech: ["Github Codespaces", "Streamlit", "Python", "Open AI"],
+    description: "A chatbot, deployed on the cloud, using open-source models (Llama, Mixtral,Gemma) hosted by Groq to generate responses to user queries. Published in Streamlit using Github Codespaces, Python, and OpenAI API",
+    tech: ["Github Codespaces", "Streamlit", "Python", "Open-Source LLMs"],
     link: "https://dvadis-chatbot.streamlit.app/",
-    image: "/migo.png"
+    image: "/GroqChatbot.png"
   },
   
 ];
