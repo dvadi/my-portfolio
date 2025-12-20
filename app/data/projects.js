@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     title: "Migo - Gigs (Android App)",
-    description: "A mobile platform connecting users with local gig opportunities. Published Android app developed using React Native framework, JSX, StyleSheet, and Firebase",
+    description: "A mobile platform connecting users with local gig opportunities. Beta Android app developed using React Native framework, JSX, StyleSheet, and Firebase",
     tech: ["React Native", "JSX", "StyleSheet", "NoSQL"],
     link: "https://play.google.com/store/apps/details?id=com.dvadieras.migo",
     image: "/migo.png"
