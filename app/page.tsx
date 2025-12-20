@@ -14,11 +14,11 @@ export default function Home() {
         </div>
         
         <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6">
-          I build the software that powers <span className="text-blue-600">semiconductor manufacturing</span>.
+          I build full-stack systems that power <span className="text-blue-600">computational chemistry, semiconductor manufacturing, and national security</span>.
         </h1>
         
         <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mb-10">
-          I am a Material Quality Systems Engineer with a background in Chemical Engineering. 
+          I am an experienced Integration, Yield, Quality, and Systems Engineer with a background in Chemical and Bioengineering Engineering. 
           I specialize in automating ETL pipelines, building cloud applications, and 
           turning complex manufacturing data into actionable insights.
         </p>
@@ -47,13 +47,16 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8">About Me</h2>
         <div className="prose prose-lg text-gray-600">
           <p className="mb-6">
-            My journey began in <strong>Chemical Engineering</strong>, at the University of New Mexico, but I quickly realized that my interest not only lied in chemical engineering they were also in developing data driven solutions.
+            My journey began in <strong>Chemical Engineering</strong>, at the University of New Mexico, but I quickly realized that my interest not only lied in chemical engineering they were also in leveraging new technologies to develop data driven solutions.
           </p>
           <p className="mb-6">
-            Currently, I work at <strong>Samsung Semiconductor</strong>, where I operate as a "Super User"; a bridge between material engineering teams and manufacturing systems. I’ve developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
+            Currently, I work as an Acceptable Knowledge Scientist (Engineer) at the <strong>United States Department of Energy (DOE)</strong>.
           </p>
           <p className="mb-6">
-            Previously at <strong>Intel</strong>, I worked as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
+            In my previous role as a Material Quality Systems Engineer at <strong>Samsung Semiconductor</strong>, I operated as a "Super User"; bridging the gap between material engineering teams and manufacturing systems. I developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
+          </p>
+          <p className="mb-6">
+            Additionaly, I worked at <strong>Intel Corporation</strong>, I worked as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
           </p>
           <p>
             I am passionate about using technology and data to automate complex workflows, optimize product yield, and improve quality.

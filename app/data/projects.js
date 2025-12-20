@@ -26,9 +26,16 @@ export const projects = [
   },
   {
     title: "Migo - Gigs (Android App)",
-    description: "A mobile platform connecting users with local gig opportunities. Published ndroid app developed using React Native framework, JSX, StyleSheet, and Firebase",
+    description: "A mobile platform connecting users with local gig opportunities. Published Android app developed using React Native framework, JSX, StyleSheet, and Firebase",
     tech: ["React Native", "JSX", "StyleSheet", "NoSQL"],
-    link: "https://apps.apple.com/app/migo-gigs/id6756591237",
+    link: "https://play.google.com/store/apps/details?id=com.dvadieras.migo",
+    image: "/migo.png"
+  },
+  {
+    title: "Streamlit Chatbot",
+    description: "A chatbot on the cloud OpenAI's GPT-3.5 model to generate responses to user queries. Published in Streamlit using Github Codespaces, Python, and OpenAI API",
+    tech: ["Github Codespaces", "Streamlit", "Python", "Open AI"],
+    link: "https://dvadis-chatbot.streamlit.app/",
     image: "/migo.png"
   },
   
