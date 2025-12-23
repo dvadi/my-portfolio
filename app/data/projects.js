@@ -1,11 +1,11 @@
 // app/data/projects.js
 export const projects = [
   {
-    title: "Transportation API Dashboard",
-    description: "Automated pipeline that fetches data from Transportation.gov via Python and visualizes trends in Looker Studio.",
-    tech: ["Python", "Looker Studio", "API Integration"],
-    link: "https://lookerstudio.google.com/embed/reporting/9cf75f12-0d44-41f7-bd4d-dccdc1154ded/page/45nhF", 
-    image: "/transportation.png"
+    title: "Migo Platform Website",
+    description: "The official web portal for the Migo gig marketplace, serving as the central hub for user acquisition and app distribution.",
+    tech: ["Web Development", "SEO", "Responsive Design"],
+    link: "https://migogigs.com",
+    image: "/migo-web.png"
   },
   {
     title: "AI Wafer Defect Detection",
@@ -25,18 +25,25 @@ export const projects = [
     image: "/migo.png"
   },
   {
-    title: "Migo - Gigs (Android App)",
-    description: "A mobile platform connecting users with local gig opportunities. Beta Android app developed using React Native framework, JSX, StyleSheet, and Firebase",
-    tech: ["React Native", "JSX", "StyleSheet", "NoSQL"],
-    link: "https://play.google.com/store/apps/details?id=com.dvadieras.migo",
-    image: "/migo.png"
-  },
-  {
     title: "Streamlit Chatbot",
     description: "A chatbot, deployed on the cloud, using open-source models (Llama, Mixtral,Gemma) hosted by Groq to generate responses to user queries. Published in Streamlit using Github Codespaces, Python, and OpenAI API",
     tech: ["Github Codespaces", "Streamlit", "Python", "Open-Source LLMs"],
     link: "https://dvadis-chatbot.streamlit.app/",
     image: "/GroqChatbot.png"
+  },
+  {
+    title: "Transportation API Dashboard",
+    description: "Automated pipeline that fetches data from Transportation.gov via Python and visualizes trends in Looker Studio.",
+    tech: ["Python", "Looker Studio", "API Integration"],
+    link: "https://lookerstudio.google.com/embed/reporting/9cf75f12-0d44-41f7-bd4d-dccdc1154ded/page/45nhF", 
+    image: "/transportation.png"
+  },
+  {
+    title: "Migo - Gigs (Android App)",
+    description: "A mobile platform connecting users with local gig opportunities. Beta Android app developed using React Native framework, JSX, StyleSheet, and Firebase",
+    tech: ["React Native", "JSX", "StyleSheet", "NoSQL"],
+    link: "https://play.google.com/store/apps/details?id=com.dvadieras.migo",
+    image: "/migo.png"
   },
   
 ];
