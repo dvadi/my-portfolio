@@ -56,7 +56,7 @@ export default function Home() {
             In my previous role as a Material Quality Systems Engineer at <strong>Samsung Semiconductor</strong>, I operated as a "Super User"; bridging the gap between material engineering teams and manufacturing systems. I developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
           </p>
           <p className="mb-6">
-            Additionaly, I worked at <strong>Intel Corporation</strong>, I worked as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
+            Additionaly, I worked at <strong>Intel Corporation</strong> as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
           </p>
           <p>
             I am passionate about using technology and data to automate complex workflows, optimize product yield, and improve quality.
