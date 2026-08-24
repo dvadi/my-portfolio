@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         
         <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mb-10">
-          I am an experienced Integration, Yield, Quality, and Systems Engineer with a background in Chemical and Bioengineering Engineering. 
+          I am an experienced Integration, Yield, Quality, and Systems Engineer with a background in Chemical Engineering. 
           I specialize in automating ETL pipelines, building cloud applications, and 
           turning complex manufacturing data into actionable insights.
         </p>
