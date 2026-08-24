@@ -47,19 +47,19 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8">About Me</h2>
         <div className="prose prose-lg text-gray-600">
           <p className="mb-6">
-            My journey began in <strong>Chemical Engineering</strong>, at the University of New Mexico, but I quickly realized that my interest not only lied in chemical engineering they were also in leveraging new technologies to develop data driven solutions.
+            My journey began in <strong>Chemical Engineering</strong> at the University of New Mexico, but I quickly realized my passion lay at the intersection of process engineering, regulatory compliance, and data-driven technology. I am dedicated to building robust data models and automating complex workflows to solve critical challenges in waste management, product yield, and manufacturing.
           </p>
           <p className="mb-6">
             Currently, I serve as an Acceptable Knowledge Scientist at <strong>Los Alamos National Laboratory</strong>. In this role, I bridge the operational, regulatory, and scientific domains by analyzing waste characterization data and modernizing reporting workflows using VBA, Python, and cloud technologies. Recently, I collaborated with an Oracle developer team and waste Subject Matter Experts (SMEs) to design and deploy an AI chatbot for a lab pack database, streamlining workflows to re-home unspent chemicals and reduce waste. Serving as the technical liaison, I guided edge-case testing and ensured the application strictly adhered to RCRA and CFR regulations. To further support environmental compliance, I maintain rigorous safety credentials, including OSHA 40-Hour HAZWOPER, Radiological Worker II, and Advanced Mixed Waste Shipper certifications.
           </p>
           <p className="mb-6">
-            In my previous role as a Material Quality Systems Engineer at <strong>Samsung Semiconductor</strong>, I operated as a "Super User"; bridging the gap between material engineering teams and manufacturing systems. I developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
+            Previously, as a Material Quality Systems Engineer at <strong>Samsung Semiconductor</strong>, I operated as a "Super User," bridging the gap between materials engineering and manufacturing systems. I developed Python-based cloud applications and automated critical ETL processes for raw material data, reducing manual processing by over <strong>1,000 hours annually</strong>.
           </p>
           <p className="mb-6">
-            Additionaly, I worked at <strong>Intel Corporation</strong> as a Module (Process) & Integration Yield Engineer, using SQL and Python to certify one of Intel Corporations first high volume manufacturing advanced packaging factories and lead defect reduction task forces.
+            Prior to that, as a Yield Engineer at <strong>Intel Corporation</strong>, I leveraged SQL, Python, and JSL to certify a $3.5 billion high-volume manufacturing factory and lead cross-departmental defect reduction task forces.
           </p>
           <p>
-            I am passionate about using technology and data to automate complex workflows, optimize product yield, and improve quality.
+            Whether I am collaborating with cross-functional teams, presenting scientific results, or developing programmatic solutions to optimize critical processes, I am passionate about leveraging data to drive continuous improvement and ensure operational safety.
           </p>
         </div>
       </section>
