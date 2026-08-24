@@ -50,7 +50,7 @@ export default function Home() {
             My journey began in <strong>Chemical Engineering</strong>, at the University of New Mexico, but I quickly realized that my interest not only lied in chemical engineering they were also in leveraging new technologies to develop data driven solutions.
           </p>
           <p className="mb-6">
-            Currently, I work as an Acceptable Knowledge Scientist (Engineer) at the <strong>United States Department of Energy (DOE)</strong>.
+            Most recently, I worked as an Acceptable Knowledge Scientist (Engineer) for the <strong>United States Department of Energy (DOE)</strong> at Los Alamos National Laboratory.
           </p>
           <p className="mb-6">
             In my previous role as a Material Quality Systems Engineer at <strong>Samsung Semiconductor</strong>, I operated as a "Super User"; bridging the gap between material engineering teams and manufacturing systems. I developed cloud applications that reduced manual data processing by over <strong>1,000 hours annually</strong>  and automated critical ETL processes for raw material data.
