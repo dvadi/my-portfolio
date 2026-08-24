@@ -10,7 +10,7 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 pt-24 pb-12 sm:pt-32">
         <div className="mb-6 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-sm font-medium text-blue-800">
           <span className="flex h-2 w-2 rounded-full bg-blue-600 mr-2"></span>
-          Based in Austin, TX
+          Based in Rio Rancho, NM
         </div>
         
         <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6">
